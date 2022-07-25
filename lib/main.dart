@@ -7,6 +7,8 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  //hello git test
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -48,6 +50,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int str = 11;
   int _counter = 0;
 
   void _incrementCounter() {
